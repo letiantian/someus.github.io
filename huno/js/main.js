@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
-  if (window.location.pathname != "/") {
+  if (window.location.pathname != "/huno/") {       // if hexo in subdir of site, should change this line
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
@@ -26,3 +26,4 @@ $(document).ready(function() {
   });
 
 });
+
