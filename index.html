@@ -16,66 +16,84 @@
         <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
         <style type="text/css">
-        body {
-            font: 13px/1.4 Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-            color: #333;
-        }
-        .containter {
-            margin: 0 auto;
-            width: 20%;
-            min-width: 400px;
-        }
 
-        .item {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 120%;
-        }
+            body {
+              background-color :#f5f5f5;
+              width: 600px;
+              margin: 0 auto;
+              padding: 0;
+            }
+            h4 {
+              color: #cd0000;
+              font-size: 42px;
+              letter-spacing: -2px;
+              text-align: left;
+            }
+            .logo {
+                width: 600px;
+            }
+            .list {
+              color: #555;
+              font-size: 22px;
+              padding: 0 !important;
+              width: 600px;
+              font-family: courier, monospace;
+              /*border: 1px solid #dedede;*/
+              text-align: center;
+            }
+            .list li {
+              list-style: none;
+              /*border-bottom: 1px dotted #ccc;*/
+              text-indent: 25px;
+              height: auto;
+              padding: 10px;
+              text-transform: capitalize;
+            }
+            .list li:hover {
+              background-color: #f0f0f0;
+              -webkit-transition: all 0.2s;
+              -moz-transition:    all 0.2s;
+              -ms-transition:     all 0.2s;
+              -o-transition:      all 0.2s;
+            }
 
-        .item.header {
-            margin-top: 40px;
-            font-size: 320%;
-            /*border-bottom: 2px solid;*/
-        }
-
-        .item a {
-            text-decoration: none;
-            color: #4078c0;
-        }
-
-        .item a:hover {
-            text-decoration: underline;
-            color: ##4078c0;
-        }
-
-        .item a:visited {
-            text-decoration: none;
-            color: #4078c0;
-        }
-
-
+            a, a:visited, a:hover {
+                text-decoration: none;
+                color: #555;
+            }
         </style>
     </head>
 
     <body>
 
-        <div class="containter">
-            <div class="item header">Hi,</div>
+        <!-- <img class="logo" src="hi5.png" /> -->
 
-            <div class="item">
-                <a href="./2015-11-huawei/">2015-11: 分享@华为俱乐部</a>
-            </div>
-            <div class="item">
+        <ul class="list">
+            <li><a href="http://www.letiantian.me">樂天笔记</a></li>
+            <li><a href="https://github.com/someus">Github</a></li>
+            <li><a href="http://my.oschina.net/letiantian/blog">OSC博客</a></li>
+            
+            <li>----------------</li>
+            <li>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+            <li>----------------</li>
+
+            <li>                
                 <!-- 2015-11 -->
                 <a href="./toc/">awesome toc</a>
-            </div>
-            <div class="item">
+            </li>
+            <li>
                 <!-- 2015-11 -->
                 <a href="./huno/">Huno demo</a>
-            </div>
+            </li>
 
-        </div>
+            <li>----------------</li>
+            <li>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ↁ_ↁ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+            <li>----------------</li>
 
+            <li><a href="./2015-11-huawei/">一次分享</a></li>
+
+        </ul>
+        
 
     </body>
 </html>
