@@ -1,1 +1,1 @@
-http://hi.letiantian.me
+http://hi.letiantian.xyz
